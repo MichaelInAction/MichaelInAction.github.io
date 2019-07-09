@@ -21,14 +21,12 @@ var background_image_parallax = function($object, align){
       var from_top = $doc.scrollTop(),
           offset_top = $object.position().top,
           bg_css = align + ' ' + (multiplier * (from_top - offset_top)) + 'px';
-      console.log(offset_top + ", " + (from_top - offset_top));
       $object.css({"background-position" : bg_css });
   });
 };
 
 var path = window.location.pathname;
 var page = path.split("/").pop();
-console.log( '\'' + page + '\'' );
 if( page === "index.html" || page === "") {
   background_image_parallax($(".parallax-1"), 'right');
   background_image_parallax($(".parallax-2"), 'left');
