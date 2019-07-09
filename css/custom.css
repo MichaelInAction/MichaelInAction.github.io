@@ -1,17 +1,27 @@
 body {
   background-color: rgb(228, 228, 228);
   font-family: "Snell Roundhand, cursive";
+  font-size: 16px;
 }
 
 footer {
   z-index: 1;
+  font-size: 0.8rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1rem;
 }
 
 .icon {
   color: black;
-  font-size: 30px;
-  width: 30px;
-  height: 30px;
+  font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
   transition: background-color .2s;
   transition: color .2s;
 }
@@ -22,13 +32,6 @@ footer {
   transition: color .2s;
 }
 
-.onImage {
-  font-size: 50px;
-  color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-}
-
 .parallax-1 {
   background-image: url("../images/banner.jpg");
   height: 700px;
@@ -37,7 +40,6 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  font-size: 20px;
   color: black;
 }
 
@@ -49,7 +51,6 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  font-size: 20px;
   color: black;
 }
 
@@ -61,7 +62,6 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  font-size: 20px;
   color: black;
 }
 
@@ -73,7 +73,6 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  font-size: 20px;
   color: black;
 }
 
@@ -85,7 +84,6 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  font-size: 20px;
   color: black;
 }
 
@@ -101,40 +99,16 @@ footer {
   background: linear-gradient(0deg, rgba(228, 228, 228, 1) 0%, rgba(228, 228, 228, 0) 10%, rgba(228, 228, 228, 0) 90%, rgba(228, 228, 228, 1) 100%);
 }
 
-.boxed {
-  background: rgba(255, 255, 255, .5);
-  width: 100%;
-}
-
-.boxed-text {
-  font-size: 40px;
-  color: white;
-  -webkit-text-stroke: 1px black;
-
-}
-
 .sidenav {
     border-right: 1px solid;
     border-color: black;
     height: 100%;
-    width: 200px;
+    width: 10%;
+    min-width: 150px;
     position: fixed;
     z-index: 2;
     top: 0;
     left: 0;
-    overflow-x: hidden;
-    padding-top: 60px;
-}
-
-.sideborder {
-    border-left: 1px solid;
-    border-color: black;
-    height: 100%;
-    width: 20px;
-    position: fixed;
-    z-index: 2;
-    top: 0;
-    right: 0;
     overflow-x: hidden;
     padding-top: 60px;
 }
@@ -145,7 +119,7 @@ footer {
 }
 
 .main {
-    margin-left: 200px; /* Same as the width of the sidenav */
+    margin-left: 10%; /* Same as the width of the sidenav */
 }
 
 @media screen and (max-height: 450px) {
