@@ -29,7 +29,7 @@ var background_image_parallax = function($object, align){
 var path = window.location.pathname;
 var page = path.split("/").pop();
 console.log( page );
-if( page === "index.html" ) {
+if( page === "index.html" || page === "") {
   background_image_parallax($(".parallax-1"), 'right');
   background_image_parallax($(".parallax-2"), 'left');
 }
