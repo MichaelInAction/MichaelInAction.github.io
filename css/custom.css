@@ -38,9 +38,22 @@ ul {
   transition: color .2s;
 }
 
+.onImage {
+  background-color: rgba(0, 0, 0, .2);
+  height: 100%;
+  width: 100%;
+  color: rgb(228, 228, 228);
+  font-size: 2rem;
+}
+
+.onImage h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
 .parallax-1 {
   background-image: url("../images/banner.jpg");
-  height: 700px;
+  height: 100vh;
   width: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -51,7 +64,7 @@ ul {
 
 .parallax-2 {
   background-image: url("../images/banner2.png");
-  height: 500px;
+  height: 100vh;
   width: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -62,7 +75,7 @@ ul {
 
 .parallax-3 {
   background-image: url("../images/banner3.png");
-  height: 700px;
+  height: 100vh;
   width: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -73,7 +86,7 @@ ul {
 
 .parallax-4 {
   background-image: url("../images/banner4.png");
-  height: 500px;
+  height: 100vh;
   width: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -84,7 +97,7 @@ ul {
 
 .parallax-5 {
   background-image: url("../images/banner5.png");
-  height: 500px;
+  height: 100vh;
   width: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -96,6 +109,7 @@ ul {
 .gradient-top {
   z-index: 2;
   height: 100%;
+  width: 100%;
   background: linear-gradient(0deg, rgba(228, 228, 228, 1) 0%, rgba(228, 228, 228, 0) 10%, rgba(228, 228, 228, 0) 100%);
 }
 
@@ -128,6 +142,10 @@ ul {
   text-align: center;
 }
 
+.centered-heading {
+  padding-top: 40vh;
+}
+
 .carousel-image {
   max-height: 500px;
   max-width: 100%;
@@ -139,7 +157,7 @@ ul {
   margin: auto;
 }
 
-.carousel-text {
+.bordered-text {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
