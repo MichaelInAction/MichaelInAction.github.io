@@ -124,8 +124,23 @@ ul {
   border-color: black;
 }
 
-.main {
-    /* margin-left: 10%; /* Same as the width of the sidenav */
+.centered-title {
+  text-align: center;
+}
+
+.carousel-image {
+  max-height: 500px;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.carousel-text {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 @media screen and (max-height: 450px) {
