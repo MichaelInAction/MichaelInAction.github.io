@@ -1,6 +1,6 @@
 body {
   background-color: rgb(228, 228, 228);
-  font-family: "Snell Roundhand, cursive";
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
 }
 
@@ -14,7 +14,13 @@ h1 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+ul {
+  font-size: 1.2rem;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .icon {
@@ -119,7 +125,7 @@ p {
 }
 
 .main {
-    margin-left: 10%; /* Same as the width of the sidenav */
+    /* margin-left: 10%; /* Same as the width of the sidenav */
 }
 
 @media screen and (max-height: 450px) {

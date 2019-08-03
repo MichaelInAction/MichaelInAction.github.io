@@ -5,8 +5,12 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
   </head>
   <body data-spy="scroll" data-target="#scroll-nav" data-offset="60">
     <nav class="upper navbar sticky-top navbar-dark bg-dark">
@@ -22,15 +26,21 @@
         <li class="nav-item">
           <a class="nav-link" href="personal.html">Personal</a>
         </li>
+        <li class="nav-item">
+          <div class="dropdown dropleft">
+        <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#head">Top</a>
+          <a class="dropdown-item" href="#bio">About Me</a>
+          <a class="dropdown-item" href="#marvel">Marvel</a>
+          <a class="dropdown-item" href="#music">Music</a>
+        </div>
+      </div>
+        </li>
       </ul>
     </nav>
-
-    <div id="scroll-nav" class="sidenav list-group bg-light">
-      <a class="list-group-item list-group-item-action" href="#head">Top</a>
-      <a class="list-group-item list-group-item-action" href="#bio">About Me</a>
-      <a class="list-group-item list-group-item-action" href="#marvel">Marvel</a>
-      <a class="list-group-item list-group-item-action" href="#music">Music</a>
-    </div>
 
     <div id="right-border" class="sideborder bg-light">
     </div>
