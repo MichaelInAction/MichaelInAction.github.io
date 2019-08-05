@@ -23,6 +23,12 @@ ul {
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
 .icon {
   color: black;
   font-size: 2rem;
@@ -39,7 +45,7 @@ ul {
 }
 
 .onImage {
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(0, 0, 0, .6);
   height: 100%;
   width: 100%;
   color: rgb(228, 228, 228);
@@ -49,6 +55,10 @@ ul {
 .onImage h1 {
   font-size: 5rem;
   font-weight: bolder;
+}
+
+.onImage p {
+  font-size: 2rem;
 }
 
 .parallax-1 {
@@ -143,7 +153,7 @@ ul {
 }
 
 .centered-heading {
-  padding-top: 40vh;
+  padding-top: 30vh;
 }
 
 .carousel-image {
@@ -159,6 +169,10 @@ ul {
 
 .bordered-text {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.btn {
+  border-radius: 24px;
 }
 
 @media screen and (max-height: 450px) {
